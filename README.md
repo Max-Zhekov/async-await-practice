@@ -1,37 +1,39 @@
-# Async/Await Examples in JavaScript
+# Async/Await Example in JavaScript
 
-This repository contains practical examples of using **async/await** in JavaScript to handle asynchronous operations. The main focus is on:
-
-- Performing HTTP requests with `fetch`  
-- Running multiple asynchronous requests in parallel using `Promise.all`  
-- Proper error handling with `try...catch`  
-- Parsing JSON responses  
-- Clean and readable asynchronous code  
+This repository contains a practical example of using **async/await** in JavaScript to handle asynchronous HTTP requests.
 
 ---
 
 ## What’s inside
 
-- `loadUser.js` — Example of fetching user data from an API endpoint sequentially and in parallel  
-- Demonstrations of converting `.then()` chains into `async/await` syntax  
-- Error handling examples in async functions  
+- `loadUser.js` — Example of fetching two users from an API **in parallel** using `fetch`, `Promise.all`, and `async/await`
+- Demonstrates proper error handling with `try...catch`
+- Shows clean and readable asynchronous code
 
 ---
 
 ## Why this repo?
 
-This is a great resource for anyone learning JavaScript asynchronous programming and looking for practical examples of **async/await** usage. It’s also a handy reference to showcase async skills during interviews.
+This example helps understand how to:
+
+- Perform multiple asynchronous HTTP requests in parallel
+- Parse JSON responses from fetch
+- Handle errors in async functions
+- Write clear and maintainable async JavaScript code
+
+Perfect for learning and for demonstrating async/await skills in interviews.
 
 ---
 
 ## How to use
 
-1. Clone the repo  
+1. Clone the repo
+
 ```bash
-git clone https://github.com/yourusername/async-await-examples.git
+git clone https://github.com/yourusername/async-await-example.git
 ```
 
-2. Open the example file and run it with Node.js (version 10+ recommended) or in the browser console.
+2. Run the example with Node.js (version 10+ recommended):
 
 ```bash
 node loadUser.js
